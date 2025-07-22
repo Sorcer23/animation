@@ -8,7 +8,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* animation: fadeout 0.5s 3s forwards; */
+  animation: fadeout 0.5s 3s forwards;
 }
 
 .content {
@@ -29,13 +29,14 @@
   text-shadow:
     0px 2px 0 #1c400b,
     0px 4px 0 #324b13;
-  background-image: url('./big-win-content-bg.svg');
+  background-image: url('./big-win-content-bg.png');
+  /* background-image: url('./big-win-content-bg-mobile.png'); */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  /* opacity: 0;
+  opacity: 0;
   transform: scale(0);
-  animation: fadeInContent 0.6s forwards; */
+  animation: fadeInContent 0.6s forwards;
 }
 
 .value {
@@ -69,8 +70,8 @@
   transform: translate(-50%, -50%);
   width: 386px;
   height: 386px;
-  /* opacity: 0;
-  animation: fadeInLights 0.25s forwards; */
+  opacity: 0;
+  animation: fadeInLights 0.25s forwards;
 }
 
 .lights::before {
@@ -84,7 +85,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  /* animation: rotateLights 2s 0.6s forwards; */
+  animation: rotateLights 2s 0.6s forwards;
 }
 
 @keyframes fadeInLights {
